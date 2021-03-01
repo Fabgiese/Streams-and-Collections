@@ -1,5 +1,6 @@
 package collections.streams.queue;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Queue;

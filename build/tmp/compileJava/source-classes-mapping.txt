@@ -2,3 +2,9 @@ collections/streams/list/ExampleList.java
  collections.streams.list.ExampleList
 collections/streams/queue/ExampleQueue.java
  collections.streams.queue.ExampleQueue
+collections/streams/set/ExampleLinkedHashSet.java
+ collections.streams.set.ExampleLinkedHashSet
+collections/streams/set/ExampleHashSet.java
+ collections.streams.set.ExampleHashSet
+collections/streams/set/ExampleTreeSet.java
+ collections.streams.set.ExampleTreeSet
