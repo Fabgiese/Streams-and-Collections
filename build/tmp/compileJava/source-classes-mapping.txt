@@ -1,0 +1,2 @@
+collections/streams/list/ExampleList.java
+ collections.streams.list.ExampleList
