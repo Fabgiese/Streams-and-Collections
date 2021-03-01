@@ -1,2 +1,4 @@
 collections/streams/list/ExampleList.java
  collections.streams.list.ExampleList
+collections/streams/queue/ExampleQueue.java
+ collections.streams.queue.ExampleQueue
