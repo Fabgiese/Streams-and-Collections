@@ -47,9 +47,8 @@ public class ExampleHashSet {
     System.out.println(setInteiros.size());
 
     // Verifique se o Set está vazio
-    
-    System.out.println(setInteiros.isEmpty());
 
+    System.out.println(setInteiros.isEmpty());
 
   }
 }
