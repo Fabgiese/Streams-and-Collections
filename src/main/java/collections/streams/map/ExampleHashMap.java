@@ -21,6 +21,34 @@ public class ExampleHashMap {
 
     // * - Adicione os 26 estados Brasileiros no map, e onde a sigla será a chave e o nome do estado o valor
 
+//    Acre 	AC
+//    Alagoas 	AL
+//    Amapá 	AP 	Localizado na Região Norte
+//    Amazonas 	AM 	Localizado na Região Norte
+//    Bahia 	BA 	Localizado na Região Nordeste
+//    Ceará 	CE 	Localizado na Região Nordeste
+//    Distrito Federal 	DF 	Localizado na Região Centro-Oeste
+//    Espírito Santo 	ES 	Localizado na Região Sudeste
+//    Goiás 	GO 	Localizado na Região Centro-Oeste
+//    Maranhão 	MA 	Localizado na Região Nordeste
+//    Mato Grosso 	MT 	Localizado na Região Centro-Oeste
+//    Mato Grosso do Sul 	MS 	Localizado na Região Centro-Oeste
+//    Minas Gerais 	MG 	Localizado na Região Sudeste
+//    Pará 	PA 	Localizado na Região Norte
+//    Paraíba 	PB 	Localizado na Região Nordeste
+//    Paraná 	PR 	Localizado na Região Sul
+//    Pernambuco 	PE 	Localizado na Região Nordeste
+//    Piauí 	PI 	Localizado na Região Nordeste
+//    Rio de Janeiro 	RJ 	Localizado na Região Sudeste
+//    Rio Grande do Norte 	RN 	Localizado na Região Nordeste
+//    Rio Grande do Sul 	RS 	Localizado na Região Sul
+//    Rondônia 	RO 	Localizado na Região Norte
+//    Roraima 	RR 	Localizado na Região Norte
+//    Santa Catarina 	SC 	Localizado na Região Sul
+//    São Paulo 	SP 	Localizado na Região Sudeste
+//    Sergipe 	SE 	Localizado na Região Nordeste
+//    Tocantins 	TO 	Localizado na Região Norte
+
     states.put("AC", "Acre");
     states.put("AL", "Alagoas");
     states.put("AP", "Amapá");
@@ -81,6 +109,5 @@ public class ExampleHashMap {
     // * - Verifique se o estado do Maranhão existe no map buscando por seu nome
 
     System.out.println(states.containsValue("Maranhão"));
-
   }
 }
