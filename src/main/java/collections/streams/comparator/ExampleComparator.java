@@ -1,8 +1,6 @@
 package collections.streams.comparator;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ExampleComparator {
   public static void main(String[] args) {
@@ -30,14 +28,36 @@ public class ExampleComparator {
       System.out.println(car.getModelo());
     }
 
+    System.out.println("---------------------");
+
     // * - Ordene implementando a interface java.util.Comparator no seu objeto complexo;
 
+    Collections.sort(listaCarros);
 
+    for(Carro car:listaCarros){
+      System.out.println(car.getModelo());
+    }
+
+    System.out.println("---------------------");
 
     // * - Ordene implementando um novo objeto com a interface java.util.Comparable;
-    // * - Ordene usando uma expressão lambda na chamada de suaLista.sort();
-    // * - Ordene usando referências de métodos e os métodos estáticos de Comparator;
-    // * - Ordene coleções TreeSet e TreeMap.
 
+    Collections.sort(listaCarros, new SortCarro());
+
+    for(Carro car:listaCarros){
+      System.out.println(car.getModelo());
+    }
+
+    System.out.println("---------------------");
+
+    // * - Ordene usando uma expressão lambda na chamada de suaLista.sort();
+
+    Comparator<Carro> compareModelo = (Carro o1, Carro o2) -> (int) (o1.getMarca().compareTo(o2.getMarca()));
+
+    Collections.sort(listaCarros, compareModelo);
+
+    for (Carro car: listaCarros) {
+      System.out.println(car);
+    }
   }
 }

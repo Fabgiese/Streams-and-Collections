@@ -33,6 +33,11 @@ public class Carro implements Comparable<Carro> {
   }
 
   @Override
+  public String toString() {
+    return "carro: " + this.modelo + ", marca: " + this.marca;
+  }
+
+  @Override
   public int compareTo(Carro o) {
     return this.modelo.compareTo(o.getModelo());
   }
