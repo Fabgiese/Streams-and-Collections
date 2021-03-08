@@ -22,3 +22,5 @@ collections/streams/comparator/ExampleComparatorTreeMap.java
  collections.streams.comparator.ExampleComparatorTreeMap
 collections/streams/optional/ExampleOptional.java
  collections.streams.optional.ExampleOptional
+collections/streams/funcoesFuncionais/FluxosDeDados.java
+ collections.streams.funcoesFuncionais.FluxosDeDados
